@@ -1,4 +1,4 @@
-import { Header, Heading } from 'components';
+import { Header } from 'components';
 import { Country } from 'pages/Country';
 import { Home } from 'pages/Home';
 import { SearchCountry } from 'pages/SearchCountry';
