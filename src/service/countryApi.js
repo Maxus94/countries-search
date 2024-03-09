@@ -3,7 +3,7 @@ import { transformCountriesData, transformCountryData } from 'helpers';
 
 axios.defaults.baseURL = 'https://restcountries.com/v3.1';
 
-export const getCountries = async () => {
+export const fetchCountries = async () => {
   const { data } = await axios.get('/region/europe');
   const countries = transformCountriesData(data);
 
